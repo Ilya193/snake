@@ -28,7 +28,7 @@ public:
       cube(Vector2f(30, 30)), game(0)
     {
         Font font;
-        font.loadFromFile("Hack-Regular.ttf");
+        //font.loadFromFile("Hack-Regular.ttf");
         txt.setFont(font);
         txt.setString("Run");
         txt.setFillColor(Color::Black);
