@@ -124,9 +124,7 @@ public:
                 snake[0].setPosition(gx, gy - 2);
 
                 for (int i = 1; i < snake.size(); i++)
-                {
                     snake[i].setPosition(posx[c - 10 * i], posy[c - 10 * i]);
-                }
 
                 c++;
             }
@@ -139,9 +137,7 @@ public:
                 snake[0].setPosition(gx + 2, gy);
 
                 for (int i = 1; i < snake.size(); i++)
-                {
                     snake[i].setPosition(posx[c - 10 * i], posy[c - 10 * i]);
-                }
 
                 c++;
             }
@@ -154,9 +150,7 @@ public:
                 snake[0].setPosition(gx, gy + 2);
 
                 for (int i = 1; i < snake.size(); i++)
-                {
                     snake[i].setPosition(posx[c - 10 * i], posy[c - 10 * i]);
-                }
 
                 c++;
             }
@@ -169,9 +163,7 @@ public:
                 snake[0].setPosition(gx - 2, gy);
 
                 for (int i = 1; i < snake.size(); i++)
-                {
                     snake[i].setPosition(posx[c - 10 * i], posy[c - 10 * i]);
-                }
 
                 c++;
             }
