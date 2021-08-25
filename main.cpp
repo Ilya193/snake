@@ -17,14 +17,13 @@ private:
     RectangleShape cube;
     Text txt;
 
-    int dir;
-    int c;
-    int k;
-    int t;
-    int game;
+    int dir; // направление
+    int c; // ходы
+    int k; //кол-во кубов
+    int game; // играет ли пользователь
 
 public:
-    Game(int x, int y, const char* s) : window(VideoMode(x, y), s), dir(1), c(0), k(0), t(0),
+    Game(int x, int y, const char* s) : window(VideoMode(x, y), s), dir(1), c(0), k(0),
       cube(Vector2f(30, 30)), game(0)
     {
         Font font;
