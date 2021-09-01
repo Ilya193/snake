@@ -217,7 +217,7 @@ public:
 
 int main()
 {
-    Game game(400, 400, "SFML");
+    Game game(400, 400, "Snake");
     game.run();
     return 0;
 }
