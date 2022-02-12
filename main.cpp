@@ -17,17 +17,16 @@ private:
     RectangleShape cube;
     Text txt;
 
-    int dir; // направление
-    int c; // ходы
-    int k; //кол-во кубов
-    int game; // играет ли пользователь
+    int dir;
+    int c;
+    int k;
+    int game;
 
 public:
     Game(int x, int y, const char* s) : window(VideoMode(x, y), s), dir(1), c(0), k(0),
       cube(Vector2f(30, 30)), game(0)
     {
         Font font;
-        //font.loadFromFile("Hack-Regular.ttf");
         txt.setFont(font);
         txt.setString("Run");
         txt.setFillColor(Color::Black);
